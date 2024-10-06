@@ -50,25 +50,25 @@ When calculating relative difference, use the formula
 
 |  Query  |  Your Results  |  John's Results | Difference | Rel. Diff | 
 |---|---|---|---|---|
-| Total Rows  |  80262158 | 85760139  |  5497981 | 6.41 %  |
+| Total Rows  |  81814889 | 85760139  |  3945250 | 4.60 %  |
 | January 2012 Rows  |  1070907 |  1070907 |  0 | 0 %  |
 | October 2012 Rows  | 1042287  | 1042287  |  0 |  0 % |
-| Month with Fewest  |  December |  February | Yes | NA  |
-| Num Rows in Month with Fewest  | 5808410  |  6556770|  748360 |  11.41 % |
+| Month with Fewest  |  September |  February | Yes | NA  |
+| Num Rows in Month with Fewest  | 5964993  |  6556770|  591777 |  9.03 % |
 | Month with Most  |  May | May  | No  | NA  |
 | Num Rows in Month with Most  |  7578371|  7578372|  1  | ~ 0 %  |
 | Null_TS  |  6626266 | 7123792  |  497526 |  6.98 % |
 | Null_DT  |  0 |  0 |  0 |  0 % |
-| Null_Local  |234843   | 227054  |  7789 | 3.43 %  |
+| Null_Local  |224411   | 227054  |  2643 | 1.16 %  |
 | Null_CN  | 0  | 0  |  0 |  0 % |
 | Num 5 on High Volume Cards  | 14987  |  14987| No  | NA  |
-| Num Rows for Number 5 | 443486  |  460630 |  17144 |  3.72 % |
-| Num Rows for 18736  | 11901  | 12153 | 252  |  2.07 % |
+| Num Rows for Number 5 | 439095  |  460630 |  21535 |  4.68 % |
+| Num Rows for 18736  | 11761  | 12153 | 392  |  3.23 % |
 | Product with Most Rows  | 	banana organic  | banana organic | No  | NA  |
-| Num Rows for that Product  | 876530  | 908639| 32109  | 3.53 %  |
+| Num Rows for that Product  | 865574  | 908639| 43065  | 4.74 %  |
 | Product with Fourth-Most Rows  |  avocado hass organic |  avocado hass organic | No  | NA  |
-| Num Rows for that Product  |  442203 |  456771 | 14568  |  3.19 % |
-| Num Single Record Products  |  2834 |  2769 | 65  |  2.35 % |
+| Num Rows for that Product  |  436636 |  456771 | 20135  |  4.41 % |
+| Num Single Record Products  |  2814 |  2769 | 45  |  1.63 % |
 | Year with Highest Portion of Owner Rows  |  2010 | 2010  | No  | NA |
 | Fraction of Rows from Owners in that Year  | 0.7422  |  0.7422 | 0  | 0 %  |
 | Year with Lowest Portion of Owner Rows  | 2017| 2017| No  | NA |
@@ -76,4 +76,4 @@ When calculating relative difference, use the formula
 
 ## Reflections
 
-<!-- I'd love to get 100-200 words on your experience doing the Wedge Project --> 
+The Wedge Project was an incredible learning experience that offered deep insights into working with real-world data and utilizing advanced data engineering concepts. The project involved processing a large dataset of transaction records from the Wedge Co-op, one of the largest cooperative grocery stores in the US. Throughout the project, I had to work simultaneously with Python and Google BigQuery to extract, clean, and transform data efficiently while ensuring data integrity and accuracy. One of the key hurdles was implementing automatic delimiter detection and making sure that NULL values were properly standardized across all files. Another challenge was aligning the headers with the reference file, which involved identifying cases where the first row needed to be treated as a header or when headers were entirely missing or misaligned. Overall, this project helped me sharpen my skills in data cleaning, querying, and pipeline automation, providing me with valuable experience for future data engineering tasks.
